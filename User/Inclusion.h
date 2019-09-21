@@ -1,0 +1,27 @@
+#ifndef INCLUSION
+#define INCLUSION
+	#include "stm32f10x.h"
+	#include "Delay\delay.h"
+	#include "GeneralFunction\General_fucntion.h"
+	#include "LoopSequence\Loop.h"
+	#include "Usart\USART.h"
+	#include "RingBuff\ring_buff.h"
+	#include "InputCapture\input_capture.h"
+	#include "IIC\IIC.h"
+	#include "PWM\pwm.h"
+	#include "EXT\ext.h"
+	#include "GPS\GPS.h"
+	#include "IMU\IMU.h"
+	#include "COMPASS\COMPASS.h"
+	#include "DATAFUSION\DATAFUSION.h"
+	#include "FILTER\FILTER.h"
+	#include "TD\TD.h"
+	#include "Motor\Motor.h"
+	#include "PathPlanning\PathPlanning.h"
+	#include "PID\PID.h"
+	#include "WDG\WDG.h"
+	#include "INPUT_CAPTURE\INPUT_CAPTURE.h"
+	#include "WirelessUSART\WirelessPort.h"
+	#include <math.h>
+	void Initialize(void);
+#endif  
