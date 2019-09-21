@@ -9,7 +9,7 @@ STM32端无人船程序，配合Raspi上位机端程序使用
 * Software文件夹存储STM32软件部分代码，即PID算法等
 * CONFIGURATION.h头文件用于设置、条件编译等
 * initialize.c为STM32初始化时运行的代码
-# 功能(配合上位机)
+## 功能(配合上位机)
 * 采集GPS坐标
 * 输入GPS坐标，自主导航。（输入坐标的方法有：Google Earth采点与实地采点）
 # 开发者的话
