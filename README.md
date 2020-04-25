@@ -37,6 +37,10 @@
 * [上位机端非ROS版Github地址](https://github.com/matreshka15/raspberry-pi-USV-program)
 * [上位机端ROS版Github地址](https://github.com/matreshka15/ROS-based-unmanned-vehicle-project)
 * [姿态解算算法的解释与实机演示视频](https://zhuanlan.zhihu.com/p/82973264)
+### 重要！所有开发下位机过程中的开发日志以及手册均已存放在下面地址
+* [开发无人船过程中参考的传感器手册以及算法资料](https://github.com/matreshka15/unmanned-ship-datasheets)
+* 开发日志记录了项目从一开始的立项到后面一步步测试成功的大大小小细节。前后由于放弃了旧的姿态算法、选取了新的姿态算法，因此前期关于姿态的说明仅供参考用。
+* 通信协议的部分已摘抄出来，放在该目录下。即：整体框架与通信协议.docx
 ## 文件格式：
 * Periphrals文件夹存储STM32的外设硬件部分代码
 * Software文件夹存储STM32软件部分代码，即PID算法等
